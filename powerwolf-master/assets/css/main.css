@@ -1,0 +1,168 @@
+@font-face {
+    font-family: 'IM Fell Double Pica SC';
+    src: url(../fonts/IMFellDoublePicaSC-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(../img/powerwolf_bg.jpg) no-repeat fixed;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+    margin: auto;
+}
+
+main .social {
+    text-align: right;
+    padding: 5px 0;
+    background-color: black;
+
+}
+
+main .social a {
+    padding-right: 10px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.header a {
+    text-decoration: none;
+    color: #D2C7A9;
+}
+
+.header a:hover {
+    color: #f5004a;
+}
+
+main .img {
+    text-align: center;
+}
+
+main hr {
+    color: #7f7060;
+}
+
+main .nav {
+    font-family: 'IM Fell Double Pica SC', serif;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    padding: 30px 0;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+main .nav a {
+    text-decoration: none;
+    color: #A4917C;
+}
+
+main .nav a:hover {
+    color: #D2C586;
+}
+
+main .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 24px 0;
+}
+
+main .content .block {
+    width: 315px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    text-align: center;
+}
+
+main .content .block img {
+    padding: auto;
+    margin-top: 5px;
+}
+
+main .content .block h2, h3 {
+    margin-bottom: 5px;
+    color: white;
+    font-family: 'IM Fell Double Pica SC', serif;
+}
+
+main .content .block p a {
+    color: #A4917C;
+    text-decoration: none;
+}
+
+main .content .block p a:hover {
+    color: #D2C586;
+}
+
+main .content .block h3 a {
+    text-decoration: none;
+    color: #d2c586;
+}
+
+main .content .block h3 a:hover {
+color: #A4917C;
+}
+
+
+main .content .block p {
+    color: white;
+    margin-top: 10px;
+    font-family: 'Open Sans', serif;
+}
+
+main .content .block hr {
+    margin: 15px 0;
+    color: white;
+}
+
+.container-img {
+    background-image: url(../img/powerwolf_bg2.jpg);
+    padding-bottom: 10px;
+    background-size: cover;
+}
+
+footer .img {
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: #626262;
+    font-family: 'IM Fell Double Pica SC', serif;
+}
+
+footer a:hover {
+    color: #939393;
+}
+
+footer .nav2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+
+footer {
+    padding: 30px;
+    color: #b4b4b4;
+    font-family: 'Open Sans', serif;
+    background-image: url("../img/footer.png");
+}

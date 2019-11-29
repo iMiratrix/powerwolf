@@ -1,0 +1,59 @@
+*{
+    transition: all 500ms ease-out;
+
+}
+.top-img {
+    text-align: center;
+    font-size: 15px;
+}
+
+.tour a {
+    color: #D2B89B;
+    font-family: 'IM Fell Double Pica SC', serif;
+    text-decoration: none;
+    font-size: 19px;
+    padding: 0 15px;
+}
+
+.tickets a {
+    font-family: 'Open Sans', serif;
+    font-size: 15px;
+    padding: 0 0 0 15px;
+
+}
+
+.date {
+    padding: 15px;
+}
+
+section {
+    font-family: 'Open Sans', serif;
+    color: white;
+    font-size: 15px;
+    padding: 15px;
+}
+
+.tour h2 {
+    padding-bottom: 30px;
+    text-align: left;
+    font-family: 'IM Fell Double Pica SC', serif;
+    color: #D2B89B;
+}
+
+.tour img {
+    padding-top: 10px;
+    margin: auto;
+    display: flex;
+    align-items: flex-end;
+    cursor: pointer;
+    max-width: 150px;
+}
+
+section:hover hr {
+    width: 50%;
+
+}
+
+.tour img:hover {
+    max-width: none;
+}
